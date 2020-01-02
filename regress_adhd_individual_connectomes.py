@@ -18,7 +18,7 @@ if not out_p.is_dir():
 conn_mask = np.tril(np.ones((64, 64))).astype(bool)
 pheno = pd.read_csv(pheno_p, sep=';')
 
-regressors = ['SITE_ID', 'FD_scrubbed', 'AGE_AT_SCAN']
+regressors = ['SITE_ID', 'FD_scrubbed', 'AGE_AT_SCAN', 'SEX']
 
 available_subject_mask = [True if (connectome_p / connectome_t.format(row.SUB_ID)).resolve().exists() else False 
                           for rid, row in pheno.iterrows()]

@@ -2,13 +2,12 @@ clear;
 
 root_path = '/home/cmoreau/projects/def-jacquese/su_cm/';
 preproc_path = [root_path '22q_prep_light/'];
-path_out = [root_path 'glm/Final_pheno_clean_4June'] ;
-model_path = [root_path 'pheno/Pheno_clean_4June_light.csv'];
+path_out = [root_path 'glm/Final22q'] ;
+model_path = [root_path 'pheno/Pheno.csv'];
 
 files_in.networks.cambridge64 = [root_path 'template/template_cambridge_basc_multiscale_sym_scale064.nii.gz'];
 files_in.networks.cambridge36 = [root_path 'template/template_cambridge_basc_multiscale_sym_scale036.nii.gz'];
 
-%opt_g.exclude_subject = {'s14725xx46xFCAP1','s14785xx5xFCAP1', 's14871xx1xFCAP1', 's14927xx1xFCAP1', 's14928xx1xFCAP1', 's14880xx1xFCAP1', 's14952xx5xFCAP1'};
 opt_g.min_nb_vol = 40; % The minimum number of volumes for an fMRI dataset to be included. This option is useful when scrubbing is used, and the resulting time series may be too short.
 opt_g.min_xcorr_func = 0.5; % The minimum xcorr score for an fMRI dataset to be included. This metric is a tool for quality control which assess the quality of non-linear coregistration of functional image_norms in stereotaxic space. Manual inspection of the values during QC is necessary to properly set this threshold.
 opt_g.min_xcorr_anat = 0.5; % The minimum xcorr score for an fMRI dataset to be included. This metric is a tool for quality control which assess the quality of non-linear coregistration of the anatomical image_norm in stereotaxic space. Manual inspection of the values during QC is necessary to properly set this threshold.

@@ -3,8 +3,8 @@ clear;
 
 root_path = '/project/6003287/PROJECT/simon_project/';
 preproc_path = [root_path 'preproc/'];
-path_out = [root_path 'glm/sample_low_motion'] ;
-model_path = [root_path 'pheno/pheno_low_motion.csv'];
+path_out = [root_path 'glm/sample'] ;
+model_path = [root_path 'pheno/pheno.csv'];
 
 files_in.networks.cambridge64 = [root_path 'template/template_cambridge_basc_multiscale_sym_scale064.nii.gz'];
 files_in.networks.cambridge36 = [root_path 'template/template_cambridge_basc_multiscale_sym_scale036.nii.gz'];
@@ -21,7 +21,7 @@ files_in.model.group = model_path;
 opt.fdr = 0.05;
 opt.folder_out = path_out; % Where to store the results
 
-%%%%%%%%%%% add your model (same as the one for the subtype) %%%%%%%%%%%%%%
+%%%%%%%%%%% add your model %%%%%%%%%%%%%%
 
 %%%%%%%%%%%%
 %% Tests

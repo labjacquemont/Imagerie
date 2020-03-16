@@ -1,4 +1,3 @@
-%% GLM with the new csv from January 25 - 2018
 clear;
 
 root_path = '/project/6003287/PROJECT/simon_project/';

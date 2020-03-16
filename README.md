@@ -29,3 +29,7 @@ Pearson correlation between beta maps obtained from each CWAS and individual con
 Publication_similarities_analyses.md
 
 to_create_chord_diag.r </p>
+
+### New Manuscript and corresponding scripts 
+## The general impact of haploinsufficiency on brain connectivity underlies the pleiotropic effect of neuropsychiatric CNVs
+https://github.com/claramoreau9/NeuropsychiatricCNVs_Connectivity

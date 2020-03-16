@@ -4,7 +4,7 @@ clear all
 
 root_path = '/project/6003287/DATA/ABIDE_1/';
 path_raw = [root_path 'RAW_FLAT/'];
-path_out = [root_path 'prep_seb_trullala/'];
+path_out = [root_path 'prep/'];
 
 list_subject = dir(path_raw);
 list_subject = {list_subject.name};

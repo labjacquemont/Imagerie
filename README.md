@@ -1,5 +1,6 @@
 ## Neuropsychiatric mutations delineate functional brain connectivity dimensions contributing to autism and schizophrenia
-https://www.biorxiv.org/content/10.1101/862615v1
+https://www.biorxiv.org/content/10.1101/862615v1 </p>
+2019 </p>
 
 #### Authors: Moreau Clara, Urchs Sebastian, et cie
 clara.moreau@umontreal.ca
@@ -30,6 +31,7 @@ Publication_similarities_analyses.md
 
 to_create_chord_diag.r </p>
 
-### New Manuscript and corresponding scripts 
 ## The general impact of haploinsufficiency on brain connectivity underlies the pleiotropic effect of neuropsychiatric CNVs
+### Other Manuscript (2020) and corresponding scripts:
+
 https://github.com/claramoreau9/NeuropsychiatricCNVs_Connectivity
